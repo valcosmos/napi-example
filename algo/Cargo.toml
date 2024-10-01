@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name    = "algo"
+version = "0.1.0"
+license = "MIT"
+
+[dependencies]
+blake3 = "1.5.4"
