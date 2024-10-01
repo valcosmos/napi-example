@@ -1,0 +1,19 @@
+[package]
+authors = ["Cupid Valentine <valentinelzt@gmail.com>"]
+edition = "2021"
+name    = "node-binding"
+license = "MIT"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+algo        = { workspace = true }
+napi        = { version = "2", no-default-features = false, features = ["full"] }
+napi-derive = "2"
+
+[build-dependencies]
+napi-build = "2"
