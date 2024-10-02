@@ -1,5 +1,6 @@
 #![deny(clippy::all)]
 mod algo;
+mod matrix;
 
 use napi_derive::napi;
 
